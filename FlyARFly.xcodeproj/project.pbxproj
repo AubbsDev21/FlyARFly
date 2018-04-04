@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2703C58B1FF74F5A00D7D4E0 /* Ships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703C58A1FF74F5A00D7D4E0 /* Ships.swift */; };
+		2744CE5B200661A600F3046F /* Tiefighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2744CE5A200661A600F3046F /* Tiefighter.swift */; };
+		2744CE5D2006668700F3046F /* TieFighterTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2744CE5C2006668700F3046F /* TieFighterTwo.swift */; };
 		27ADD6C01FF3638C00F77BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADD6BF1FF3638C00F77BD3 /* AppDelegate.swift */; };
 		27ADD6C21FF3638C00F77BD3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ADD6C11FF3638C00F77BD3 /* art.scnassets */; };
 		27ADD6C41FF3638C00F77BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADD6C31FF3638C00F77BD3 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2703C58A1FF74F5A00D7D4E0 /* Ships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ships.swift; sourceTree = "<group>"; };
+		2744CE5A200661A600F3046F /* Tiefighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiefighter.swift; sourceTree = "<group>"; };
+		2744CE5C2006668700F3046F /* TieFighterTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieFighterTwo.swift; sourceTree = "<group>"; };
 		27ADD6BC1FF3638C00F77BD3 /* FlyARFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyARFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ADD6BF1FF3638C00F77BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27ADD6C11FF3638C00F77BD3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 				27ADD6BF1FF3638C00F77BD3 /* AppDelegate.swift */,
 				27ADD6C11FF3638C00F77BD3 /* art.scnassets */,
 				27ADD6C31FF3638C00F77BD3 /* ViewController.swift */,
+				2703C58A1FF74F5A00D7D4E0 /* Ships.swift */,
+				2744CE5A200661A600F3046F /* Tiefighter.swift */,
+				2744CE5C2006668700F3046F /* TieFighterTwo.swift */,
 				27ADD6C51FF3638C00F77BD3 /* Main.storyboard */,
 				27ADD6C81FF3638C00F77BD3 /* Assets.xcassets */,
 				27ADD6CA1FF3638C00F77BD3 /* LaunchScreen.storyboard */,
@@ -263,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2703C58B1FF74F5A00D7D4E0 /* Ships.swift in Sources */,
+				2744CE5D2006668700F3046F /* TieFighterTwo.swift in Sources */,
 				27ADD6C41FF3638C00F77BD3 /* ViewController.swift in Sources */,
+				2744CE5B200661A600F3046F /* Tiefighter.swift in Sources */,
 				27ADD6C01FF3638C00F77BD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXTW378J4;
 				INFOPLIST_FILE = FlyARFly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodeCorner.FlyARFly;
@@ -445,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXTW378J4;
 				INFOPLIST_FILE = FlyARFly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodeCorner.FlyARFly;
